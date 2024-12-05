@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.contener{
+    background-color: rgb(2, 24, 99);
+    width: 100%;
+
+}
+.box-menu-bar{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.box-photo{
+    background-color: red;
+    width: 25%;
+    height: 100px;
+}
+.menu-bar{
+    background-color: aqua;
+    width: 75%;
+    height: 100px;
+}
+.menu-bar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-bar ul li a{
+    color: white;
+    font-size: 10px;
+}
+
+@media (min-width: 250px) {
+    .menu-bar ul li a{
+        display: none
+    }
+    .menu-bar{
+        display: none;
+    }
+    .box-photo{
+        width: 100%;
+        height: 100px;
+        background-color: blue;
+        /* background-image: url('https://www.ababank.com/typo3conf/ext/boxmodel/Resources/Private/Templates/ABA/images/aba-mobile-top-logo.png'); */
+        background-size: 10;
+    }
+    .box-photo .bo{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}
+
+
+
